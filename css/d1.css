@@ -1,0 +1,31 @@
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: darkgrey;
+    text-shadow: 5px 5px 60px black;
+    font-size: 35pt;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+}
+
+div{
+    position: absolute;
+    color: darkgray;
+    text-shadow: 5px 5px 60px black;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 35pt;
+    color: rgb(9, 9, 9);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 10pt;
+    text-shadow: 0 0 30px black;
+}

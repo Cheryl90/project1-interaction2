@@ -1,0 +1,154 @@
+h1{
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(171, 169, 169);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    font-size: 50pt;
+    width: 30%;
+    left: 5%;
+    position: fixed;
+    z-index: -5;
+}
+
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgb(191, 190, 190);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    background-image: radial-gradient(rgb(51, 50, 50), rgb(244, 243, 243), white);
+    background-size: 70% 900%;
+}
+
+div{
+    width: 30%;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: rgb(152, 150, 150);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 10pt;
+    text-shadow: 0 0 30px black;
+}
+
+.div1{
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+
+.div2{
+    position: absolute;
+    left: 8%;
+    top: 85%;
+    color: rgb(156, 154, 154);
+}
+
+.div3{
+    position: absolute;
+    left: 55%;
+    top: 135%;
+    color: rgb(122, 121, 121);
+}
+
+.div4{
+    position: absolute;
+    left: 8%;
+    top: 175%;
+    color: rgb(89, 89, 89);
+}
+
+.div5{
+    position: absolute;
+    left: 55%;
+    top: 215%;
+    color: rgb(55, 55, 55);
+}
+
+h2{
+    font-size: 35pt;
+    position: absolute;
+    left: 90%;
+}
+
+nav{
+    display: block;
+}
+
+.footer{
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    top: 250%;
+    left:3%;
+    width: 100%;
+    height: 10%;
+    text-align: left 10%;
+}
+
+@media screen and (max-width: 390px) {
+    h1 {
+        font-size: 24pt; /* Smaller font size for smaller screens */
+        width: 80%; /* Increase width to use more screen space */
+    }
+
+    div {
+        width: 90%; /* Increase width for better readability */
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .div1, .div2, .div3, .div4, .div5 {
+        left: 50%; /* Center align divs */
+        transform: translateX(-50%); /* Adjust for center alignment */
+        top: auto; /* Adjust top positioning dynamically */
+    }
+
+    .div1{
+        top: 20%
+    }
+
+    .div2{
+     top: 40%;
+    }
+
+    .div3{
+        top: 60%
+    }
+
+    .div4{
+        top: 78%;
+    }
+
+    .div5{
+        top: 98%;
+    }
+    a {
+        font-size: 12pt; /* Adjust font size for better readability */
+    }
+
+    a:hover {
+        font-size: 12pt; /* Keep font size consistent on hover */
+    }
+
+    h2 {
+        font-size: 20pt; /* Adjust font size */
+        left: 90%; /* Adjust position to fit within the screen */
+    }
+
+    .footer {
+        display: none;
+    }
+
+    body{
+        background-size: 100% 1000%;
+    }
+
+}

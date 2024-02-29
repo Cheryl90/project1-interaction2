@@ -1,0 +1,40 @@
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgb(72, 72, 72);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    background-image: radial-gradient(rgb(51, 50, 50), rgb(244, 243, 243), white);
+    background-size: 87% 300%;
+}
+
+div{
+    width: 30%;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+}
+
+.div1{
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+}
+
+.div2{
+    position: absolute;
+    left: 55%;
+    top: 65%;
+    width: 30%;
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: rgb(67, 67, 67);
+    text-shadow: 0 0 10px rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 10pt;
+    text-shadow: 0 0 30px black;
+}

@@ -1,0 +1,32 @@
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+    text-shadow: 5px 5px 60px black;
+    animation: colorChange 4s infinite;
+}
+
+div{
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    width: 40%;
+    font-size: 14pt;
+    left: 3%;
+}
+
+a{
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 10pt;
+    text-shadow: 0 0 30px black;
+}
+
+@keyframes colorChange {
+    0% { background-color: #fffefe; }
+    50% { background-color: #636464; }
+    100% { background-color: #fcfbfb; }
+}

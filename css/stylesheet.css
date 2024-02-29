@@ -1,0 +1,88 @@
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    text-shadow: 0 0 30px white;
+}
+
+h1{
+    font-family: 'Philosopher', sans-serif;;
+    text-transform: capitalize;
+    left: 3%;
+    position: relative;
+}
+
+body{
+    background-color: black;
+    color: azure;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 40pt;
+    color: rgb(147, 146, 146);
+}
+
+.spread{
+    position: absolute;
+    left: 14%;
+    top: 45%;
+}
+
+.shadow{
+    position: absolute;
+    left: 29%;
+    top: 45%;
+}
+
+.beauty{
+    position: absolute;
+    left: 50.5%;
+    top: 45%;
+}
+
+.live{
+    position: absolute;
+    left: 69%;
+    top: 45%;
+}
+
+h3{
+    font-family: 'Philosopher', sans-serif;
+}
+
+.making{
+    position: absolute;
+    top: 85%;
+    left: 4%;
+}
+
+.in{
+    position: absolute;
+    top: 85%;
+    left: 76%;
+}
+
+.Japanese{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+
+.name{
+    position: absolute;
+    left: 90%;
+    top: 7%;
+}
+
+.div{
+    width: 80%;
+    height: 40%;
+    border: 1px solid white;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: -1000
+}

@@ -1,0 +1,75 @@
+body{
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 30px white;
+}
+
+div{
+    width: 42%;
+    text-align: justify;
+    margin: 20px;
+}
+
+.div1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+}
+
+@keyframes animate { 
+    0% { 
+        width: 0px; 
+        height: 0px; 
+    } 
+
+    30% { 
+        width: 50px; 
+        height: 0px; 
+    } 
+
+    60% { 
+        width: 50px; 
+        height: 80px; 
+    } 
+} 
+
+.div2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: rgb(191, 190, 190);
+    text-shadow: 0 0 50px rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 10pt;
+}
+
+#invertedcursor {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: 0 0 60px 60px rgba(255,255,255,1);
+    border-radius: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: none;
+    z-index: 100; /* Ensure it's above other elements */
+    mix-blend-mode: difference;
+    pointer-events: none; /* Important to allow clicks to pass through */
+    transition: transform .2s;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
